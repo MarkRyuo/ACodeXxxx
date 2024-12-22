@@ -1,10 +1,7 @@
-import { useState } from "react";
+import PropTypes from "prop-types";
 
 function Buttons({button}) {
 
-  const [button] = useState ([
-    {id: 1, name: 'Subscribe', path: '/'}
-  ])
 
   return (
     <>
@@ -16,5 +13,6 @@ function Buttons({button}) {
     </>
   )
 }
+
 
 export default Buttons ;
