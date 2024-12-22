@@ -8,4 +8,4 @@ function Navbar01() {
   )
 }
 
-export default Navbar01
+export default Navbar01 ;
