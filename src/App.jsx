@@ -1,6 +1,6 @@
 import './App.css'
 import { BrowserRouter, Routes, Route} from "react-router";
-
+import LandingScreen from './screens/LandingScreen';
 
 //* Routing 
 function App() {
