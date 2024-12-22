@@ -14,5 +14,10 @@ function Buttons({button}) {
   )
 }
 
+button.propType = {
+  button: PropTypes.array = [
+    
+  ]
+}
 
 export default Buttons ;
