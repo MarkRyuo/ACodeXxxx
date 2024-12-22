@@ -11,7 +11,11 @@ function Buttons() {
 
   return (
     <>
-      
+      {button.map((btn) => ((
+        <button>
+          
+        </button>
+      )))}
     </>
   )
 }
