@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Buttons() {
+function Buttons({button}) {
 
   const [button] = useState ([
     {id: 1, name: 'Subscribe', path: '/'}
