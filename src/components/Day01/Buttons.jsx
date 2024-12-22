@@ -3,13 +3,13 @@ import { useState } from "react";
 function Buttons() {
 
   const [button] = useState ([
-    {id: 1, name: 'Subscribe', path: ''}
+    {id: 1, name: 'Subscribe', path: '/'}
   ])
 
   return (
     <>
       {button.map((btn) => ((
-        <button key={btn.id} type="button" style>
+        <button key={btn.id} type="button" onClick={btn.path}>
           {btn.name}
         </button>
       )))}
