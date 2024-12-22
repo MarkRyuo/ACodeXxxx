@@ -15,9 +15,7 @@ function Buttons({button}) {
 }
 
 button.propType = {
-  button: PropTypes.array = [
-    
-  ]
+  button: PropTypes.array.isRequirde
 }
 
 export default Buttons ;
