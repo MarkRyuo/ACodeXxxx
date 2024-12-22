@@ -12,8 +12,8 @@ function Buttons() {
   return (
     <>
       {button.map((btn) => ((
-        <button>
-          
+        <button key={btn.id} type="button">
+          {btn.name}
         </button>
       )))}
     </>
