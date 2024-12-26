@@ -21,5 +21,3 @@ export default Day1 ;
 
 
 
-
-
