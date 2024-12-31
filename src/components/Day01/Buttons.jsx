@@ -20,4 +20,3 @@ Buttons.propTypes = {
 
 export default Buttons ;
 
-
