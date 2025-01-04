@@ -18,4 +18,4 @@ Buttons.propTypes = {
   button: PropTypes.array.isRequired
 }
 
-export default Buttons ;g
+export default Buttons ;
